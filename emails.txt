@@ -3,4 +3,8 @@ aishwaryamandha@gmail.com
 bharathammili@gmail.com
 naveenvaikunt@gmail.com
 gowthambavkar@gmail.com
+<<<<<<< HEAD
 pranamyamourya@gmail.com--New1.1
+=======
+pranamyamourya@gmail.com--Newv1.2
+>>>>>>> 0e568682ce292b250df5e1c565756ce25239d46e
