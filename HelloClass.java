@@ -4,7 +4,7 @@ public class HelloClass{
    for(int i=0; i<10; i++){
    System.out.println("Value is: "+i);
    system.out.println("Hello, world!"+i);
-   bjtjth
+   bjtjthvkbvbgr
    }
    
    }
