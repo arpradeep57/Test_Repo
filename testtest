@@ -1,0 +1,27 @@
+public class testetst {
+    public static void newnew(){
+    list<TestObj__c> newlist = new list<TestObj__c>();
+Schema.DescribeSObjectResult objSchema = Account_Property__c.sObjectType.getDescribe();
+Map<String, Schema.SObjectField> fieldMap = objSchema.fields.getMap();
+for (String fieldName : fieldMap.keySet()){
+    SObjectField sfield = fieldMap.get(fieldName);
+    schema.describefieldresult dfield = sfield.getDescribe();
+    system.debug(dfield.getlabel()+ ' ' + dfield.getname());
+    TestObj__c rec = new TestObj__c();
+    rec.name = dfield.getlabel();
+    rec.api__c = dfield.getname();
+    rec.length__c = string.valueof(dfield.getLength());
+    rec.precision__c = string.valueof(dfield.getprecision());
+    rec.Data_Type__c = String.ValueOf(dfield.gettype());
+    if(dfield.isnillable()){
+    rec.Optional_Mandatory__c = 'Optional';    
+    }
+    else{
+    rec.Optional_Mandatory__c = 'Mandatory';    
+    }
+    
+    newlist.add(rec);
+}
+insert newlist;
+}
+}
