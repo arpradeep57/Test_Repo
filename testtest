@@ -20,7 +20,7 @@ for (String fieldName : fieldMap.keySet()){
     rec.Optional_Mandatory__c = 'Mandatory';    
     }
     
-    newlist.add(rec);
+    newlist.add(rec);;
 }
 insert newlist;
 }
