@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity.GS_Opportunity_compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Account.GS_Booking_Tool_Preferences_Manager__c</members>
+        <members>GS_Room_Block__c.GS_Any_Bedroom_Rate__c</members>
+        <members>GS_Room_Block__c.GS_No_of_Any_Bedrooms__c</members>
+        <members>GS_Room_Block__c.GS_No_of_Staff_Bedrooms__c</members>
+        <members>GS_Room_Block__c.GS_Staff_Bedroom_Rate__c</members>
+        <members>Opportunity.GS_Lost_Business_Reason__c</members>
+        <members>Opportunity.GS_Other_Revenue__c</members>
+        <members>Opportunity.GS_Resource_Revenue__c</members>
+        <members>Opportunity.GS_Room_Rental_Revenue__c</members>
+        <members>Opportunity.GS_Segment__c</members>
+        <members>Opportunity.GS_Type_of_Meeting_Event__c</members>
+        <members>Property__c.Hotel_Region__c</members>
+        <members>Property__c.Hotel_Scale__c</members>
+        <members>Property__c.Hotel_Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>GS_Room_Block__c-GS Room Block Layout</members>
+        <members>Opportunity-GS - Property Level Opportunity Layout</members>
+        <members>Opportunity-GS Opportunity Layout</members>
+        <members>Opportunity-GS Opportunity Layout - CREW</members>
+        <members>Opportunity-GS Opportunity Layout - Leisure</members>
+        <members>Opportunity-GS Opportunity Layout - MICE</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Opportunity.AllOpportunities</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Opportunity.Select_Properties</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Account.GS_Customer_Account</members>
+        <members>Account.GS_Master_Account</members>
+        <members>Account.GS_Partner_Account</members>
+        <members>Opportunity.GS_Opportunity_Crew</members>
+        <members>Opportunity.GS_Opportunity_Leisure</members>
+        <members>Opportunity.GS_Opportunity_MICE</members>
+        <members>Opportunity.GS_Opportunity_Property_Level_Opportunity</members>
+        <members>Opportunity.OLM_Opportunity_Contract_Amendment</members>
+        <members>Opportunity.OLM_Opportunity_Franchised_AMER</members>
+        <members>Opportunity.OLM_Opportunity_Franchised_APAC</members>
+        <members>Opportunity.OLM_Opportunity_Franchised_EMEA</members>
+        <members>Opportunity.OLM_Opportunity_Managed_AMER</members>
+        <members>Opportunity.OLM_Opportunity_Managed_APAC</members>
+        <members>Opportunity.OLM_Opportunity_Managed_EMEA</members>
+        <members>Opportunity.OLM_Opportunity_Re_Licensing</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>TEMPORARY_ROLE</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Opportunity</members>
+        <name>Workflow</name>
+    </types>
+    <version>41.0</version>
+</Package>
